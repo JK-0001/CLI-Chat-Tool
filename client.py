@@ -14,7 +14,7 @@ def recv_messages(connection: socket.socket):
 
 def Main():
     
-    host = "64.227.166.49"
+    host = "127.0.0.1"
     port = 5001        
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
